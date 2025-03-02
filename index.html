@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link start here -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <title>bootstrap5</title>
+    <!-- css link start here -->
+</head>
+<body>
+
+      <div class="container-fluid">        
+        <!-- Nav item start here -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mt-1 mb-1">
+          <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">BURGER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <!-- item start -->
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Food</a>
+                </li>
+
+                <li class="nav-item dropdown">
+
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Item
+                  </a>
+
+                  <ul class="dropdown-menu">
+
+                    <li><a class="dropdown-item" href="#">Chicken Burger</a></li>
+                    <li><a class="dropdown-item" href="#">Vagetable Burger</a></li>
+
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Othe Item</a></li>
+                    <li><a class="dropdown-item" href="#">Mutton</a></li>
+                    <li><a class="dropdown-item" href="#">Breef</a></li>
+                  </ul>
+
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+                <!-- item end -->
+
+              </ul>
+
+              <!-- form start -->
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <!-- form end -->
+
+            </div>
+          </div>
+        </nav>
+        <!-- Nav item end here -->
+        
+        <!-- slider start here -->
+         <!-- indicator start here-->
+        <div id="carousel_one" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel_one" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel_one" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel_one" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel_one" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel_one" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+        <!-- indiator end here-->
+
+          <!-- inner start -->
+          <div class="carousel-inner">
+            <!-- item1 -->
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="img/slide1.jpg" class="d-block w-100" alt="slider_img">
+            </div>
+            <!-- item2 -->
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="img/slide2.jpg" class="d-block w-100" alt="slider_img">
+            </div>
+            <!-- item3 -->
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/slide3.jpg" class="d-block w-100" alt="slider_img">
+            </div>
+            <!-- item4 -->
+            <div class="carousel-item" data-bs-interval="3000"> data-bs-interval="2000"
+              <img src="img/slide4.jpg" class="d-block w-100" alt="slider_img">
+            </div>
+            <!-- item5 -->
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/slide5.jpg" class="d-block w-100" alt="slider_img">
+            </div>
+
+          </div>
+
+          <!-- inner end here-->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_one" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_one" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          
+        </div>
+
+        <!-- 3Card start here -->
+      <div class="Multiple_card">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+          <div class="col">
+            <div class="card">
+              <img src="img/slide1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Burger Item1</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="img/slide2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Burger Item2</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="img/slide3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Burger Item3</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- 3Card end here -->
+
+        <!-- button start here -->
+        <div class="M_button">
+
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+
+            <button type="button" class="btn btn-outline-success">Success</button>
+
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+
+            <button type="button" class="btn btn-outline-info">Info</button>
+
+            <button type="button" class="btn btn-outline-light">Light</button>
+            
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+
+        </div>
+        <!-- button start here -->
+
+        <!-- acordion start here -->
+        <div class="accordion" id="accordion_start">
+
+            <!-- item1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_One" aria-expanded="true" aria-controls="collapse_One">
+                  Question no-1: What is HTMl?
+                </button>
+              </h2>
+              <div id="collapse_One" class="accordion-collapse   collapse show">   
+                <div class="accordion-body">
+                    HTML stands for <strong>HyperText Markup Language and is a standard markup language</strong> used to structure and design web pages. It uses tags and elements to organize content and enhance accessibility and SEO. Developed by Tim Berners-Lee in 1990, HTML enables web developers to organize, format, and display a web page's content. HTML files typically use the .htm or .html extension and are read by web browsers to display<code> web content.</code>
+                </div>
+              </div>
+            </div>
+
+            <!-- item2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_two" aria-expanded="false" aria-controls="collapse_two">
+                  Question No-2: How it works?
+                </button>
+              </h2>
+              <div id="collapse_two" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                <strong>HTML, or HyperText Markup Language.</strong>, is a markup language used to structure and display content on the web. It works by using tags to define how content should be displayed in a web browser. For example, the <p> tag is used to define a paragraph, and the <img> tag is used to embed an image into a webpage.
+                </div>
+              </div>
+            </div>
+
+            <!-- item3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_three" aria-expanded="false" aria-controls="collapse_three">
+                  Question no-3: What are HTML tags and how do they work?
+                </button>
+              </h2>
+              <div id="collapse_three" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                <strong> HTML tags are composed of an opening tag, content, and a closing tag.</strong> The opening tag marks the beginning of an element, and the closing tag marks the end. The content is the information or structure that falls between the opening and closing tags. Here's the basic structure of an HTML tag:
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- acordion end here -->
+
+        <!-- colapse start here -->
+        <div class="colapse_one">
+          <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                  Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- colapse start here -->
+
+      <!-- offcanvas start here -->
+      <div class="o_canvas">
+
+        <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Right offcanvas</button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"   aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          it is very important part of the website.
+        </div>
+
+        </div>
+      </div>
+
+      <!-- offcanvas end here -->
+      <!-- plceholder strat here -->
+       <span class="placeholder col-12"></span>
+       <span class="placeholder col-12 bg-primary"></span>
+       <span class="placeholder col-12 bg-secondary"></span>
+       <span class="placeholder col-12 bg-success"></span>
+       <span class="placeholder col-12 bg-danger"></span>
+       <span class="placeholder col-12 bg-warning"></span>
+       <span class="placeholder col-12 bg-info"></span>
+       <span class="placeholder col-12 bg-light"></span>
+       <span class="placeholder col-12 bg-dark"></span>
+      <!-- plceholder strat here -->
+
+    </div>
+
+
+
+    <!-- js link start here -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- js link end here -->
+</body>
+</html>
